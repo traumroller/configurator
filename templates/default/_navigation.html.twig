@@ -1,0 +1,30 @@
+<section id="navigation">
+    <nav class="navbar navbar-expand">
+        <a class="navbar-brand" href="{{ path('homepage')}}"><h4>vespa</h4></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" id="_catalogue">{{ 'Catalogue'|trans|upper }} <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" disabled="true" class="disabled" href="#" id="_manufactory">{{ 'Manufactory'|trans|upper }}</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" disabled="true" href="#" id="_rental">{{ 'Rental'|trans|upper }}</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" disabled="true" href="#" id="_garage">{{ 'Garage'|trans|upper }}</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
